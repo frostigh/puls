@@ -20,8 +20,8 @@ function scripts() {
 
 function styles(){
     return src ([
-        'src/scss/style.scss',
-        'src/scss/**/*.scss'])
+        'src/sass/style.scss',
+        'src/sass/**/*.scss'])
     .pipe(autoprefixer({overrideBrowserlist: ['last 10 version']}))
     .pipe(concat('style.min.css'))
     .pipe(scss({outputStyle: 'compressed'}))
@@ -30,7 +30,7 @@ function styles(){
 }
 
 function watching() {
-    watch(['src/scss/style.scss'],styles)
+    watch(['src/sass/style.scss'],styles)
     watch(['src/js/main.js'],scripts)
     watch(['src/*.html']).on('change',browserSync.reload);
 }
