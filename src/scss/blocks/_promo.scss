@@ -2,7 +2,6 @@
     min-height: 650px;
     padding-top: 21px;
     background: url(../../img/bg1.png) no-repeat;
-    background-size: 100%;
 
     &__wrapper {
         display: flex;
@@ -53,9 +52,48 @@
         color: #fff;
         margin-top: 18px;
         a {
+            color: #fff;
             text-transform: uppercase;
             text-decoration: underline;
         }
     }
+}
+
+@media (max-width: 768px) {
+    .promo {
+        min-height: auto;
+        padding-top: 10px;
     }
 
+    .promo__wrapper {
+        margin-top: 20px;
+    }
+
+    .promo__header {
+        font-size: 32px;
+    }
+
+    .promo__subheader {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .promo__icons {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .promo__icon {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .promo__icon img {
+        margin-bottom: 10px;
+    }
+
+    .promo_link {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+}
