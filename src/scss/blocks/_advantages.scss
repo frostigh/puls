@@ -5,13 +5,6 @@
     padding: 70px 0 78px 0;
   
 
-&__title {
-    font-size: 30px;
-    color: #0d0d0d;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-align: center;
-}
 &__icons {
     width: auto;
     margin-top: 65px;
@@ -32,6 +25,7 @@
         margin-bottom: 38px;
     }}
     &__desc {
+        padding-bottom: 78px;
         margin: 0 auto;
         width: auto;
         margin-top: 25px;

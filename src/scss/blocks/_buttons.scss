@@ -14,6 +14,12 @@
         margin-top: 67px;
         font-size: 16px;
     }
+    &_submit{
+        width: 300px;
+        height: 55px;
+        color: #fff;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -25,6 +31,10 @@
             width: 200px;
             height: 40px; 
             font-size: 14px;
+        }
+        &_submit{
+            width: 100%;
+            
         }
     }
 }
