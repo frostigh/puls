@@ -53,7 +53,7 @@ function building() {
         'src/js/main.min.js',
         'src/**/*.html'
     ], {base : 'src'})
-    .pipe(dest('dist'))
+    .pipe(dest('/dist'))
 }
 
 
